@@ -37,6 +37,7 @@ export class QuoteRequestService {
           }
         );
     });
+    console.log(promise);
     return promise;
   }
 }

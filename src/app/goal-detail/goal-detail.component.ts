@@ -9,7 +9,7 @@ import { GoalService } from '../goal-service/goal.service';
   styleUrls: ['./goal-detail.component.css'],
 })
 export class GoalDetailComponent implements OnInit {
-  goal: Goal | undefined;
+  goal!: any;
 
   constructor(private route: ActivatedRoute, private service: GoalService) {}
 

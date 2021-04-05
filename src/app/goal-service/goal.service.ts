@@ -17,6 +17,7 @@ export class GoalService {
       return result;
     }
     return result;
+    console.log(result);
   }
   constructor() {}
 }
